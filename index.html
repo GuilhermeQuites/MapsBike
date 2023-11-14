@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa e Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="#introducao">Início</a></li>
+        <li><a href="#mapa">Mapa</a></li>
+        <li><a href="#criadores">Mais Informações</a></li>
+        <li><a href="#feedbackForm">Feedback</a></li>
+        <!-- Adicionei um novo item para o formulário de feedback -->
+    </ul>
+
+    <div class="introducao">
+        <h2>Promovendo Mudanças Positivas</h2>
+
+        <p>
+
+            Nosso projeto tem como objetivo principal melhorar a mobilidade em Belo Horizonte e promover o uso de
+            bicicletas como uma alternativa saudável e sustentável de transporte. Acreditamos que ao incentivar o uso de
+            bicicletas, estaremos contribuindo para a melhoria da qualidade de vida da população, além de ajudar a
+            reduzir a poluição e o congestionamento nas ruas. <br>
+
+            Este projeto é apenas o começo de uma jornada que estamos empreendendo. Estamos abertos a receber feedbacks
+            e sugestões para aprimorar ainda mais nossas soluções. Queremos construir uma comunidade engajada e
+            colaborativa, onde todos possam contribuir para a expansão da cultura das bicicletas em Belo Horizonte.<br>
+
+            Em nosso mapa, estamos apresentando lugares em Belo Horizonte que são referências para aluguel e venda de
+            bicicletas. Queremos facilitar o acesso às bicicletas e ajudar as pessoas a encontrarem os melhores locais
+            para alugar ou comprar uma bicicleta.<br>
+
+            Junte-se a nós nessa missão de transformar Belo Horizonte em uma cidade mais sustentável, saudável e
+            conectada! Juntos, podemos fazer a diferença.
+
+        </p>
+    </div>
+
+    <div id="mapa"></div>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5l-5k47984ZB6YyPrXIomElxQaZKpBrk&libraries=maps,marker&v=beta">
+    </script>
+    <script src="Mapa.js"></script>
+
+
+    <div class="conteudo-adicional">
+        <h2>Explorando Novas Perspectivas</h2>
+        <p>
+            Nos últimos anos, o número de carros em Belo Horizonte tem aumentado significativamente. Esse aumento na
+            quantidade de veículos traz consigo uma série de impactos negativos para o meio ambiente. O uso excessivo de
+            carros contribui para a poluição do ar, o aumento das emissões de gases de efeito estufa e a degradação da
+            qualidade do ar que respiramos.<br>
+
+            De acordo com dados recentes, Belo Horizonte possui uma das maiores taxas de motorização do país, com um
+            veículo
+            para cada dois habitantes. Essa alta concentração de carros nas ruas resulta em congestionamentos
+            constantes,
+            aumentando o tempo de deslocamento e a insatisfação dos cidadãos.<br>
+
+            Além disso, a dependência excessiva de carros também tem um impacto negativo na saúde da população. A
+            exposição
+            constante à poluição do ar proveniente dos escapamentos dos veículos pode causar problemas respiratórios,
+            cardiovasculares e até mesmo aumentar o risco de desenvolvimento de doenças crônicas.<br>
+
+            Diante desse cenário, é mais importante do que nunca promover mudanças positivas na forma como nos
+            deslocamos
+            pela cidade. Ao incentivar o uso de bicicletas como uma alternativa saudável e sustentável de transporte,
+            podemos reduzir significativamente a quantidade de carros nas ruas e os impactos negativos associados.<br>
+
+            Nosso projeto busca exatamente isso: transformar Belo Horizonte em uma cidade mais sustentável, saudável e
+            conectada. Através do mapeamento de lugares de aluguel e venda de bicicletas, queremos facilitar o acesso a
+            esse
+            meio de transporte e encorajar as pessoas a adotarem essa opção mais ecológica.<br>
+
+            Junte-se a nós nessa missão de criar uma cidade com menos carros e mais bicicletas. Juntos, podemos fazer a
+            diferença e contribuir para a construção de um futuro mais sustentável para Belo Horizonte
+        </p>
+
+        <div class="criadores" id="criadores">
+            <h3>Equipe</h3>
+            <div class="membro">
+                <img src="images/GuilhermeGomes.png" alt="Foto do Membro 1">
+                <div>
+                    <h4>Guilherme Gomes de Miranda Quites</h4>
+                </div>
+            </div>
+            <div class="membro">
+                <img src="images/3.png" alt="Foto do Membro 2">
+                <div>
+                    <h4>Rafael Russo Soares</h4>
+                </div>
+            </div>
+            <div class="membro">
+                <img src="images/2.jpeg" alt="Foto do Membro 2">
+                <div>
+                    <h4>Otávio Silva Santana</h4>
+                </div>
+            </div>
+            <div class="membro">
+                <img src="images/4.jpeg" alt="Foto do Membro 2">
+                <div>
+                    <h4>Erick Viana Rodrigues</h4>
+                </div>
+            </div>
+            <div class="membro">
+                <img src="images/5.jpeg" alt="Foto do Membro 2">
+                <div>
+                    <h4>Anna Luiza Martins</h4>
+                </div>
+            </div>
+            <div class="membro">
+                <img src="images/6.png" alt="Foto do Membro 2">
+                <div>
+                    <h4>João Pedro Maciel de Oliveira</h4>
+                </div>
+            </div>
+        </div>
+        <h2>Deixe seu Feedback</h2>
+        <p>Queremos ouvir sua opinião! Ajude-nos a melhorar nosso trabalho e contribuir para uma comunidade mais
+            sustentável e saudável. Seu feedback é valioso.</p>
+
+        <form id="feedbackForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar Feedback</button>
+        </form>
+    </div>
+</body>
+
+</html>
