@@ -1,7 +1,7 @@
 class Mapa {
     constructor() {
         this.map = null;
-        this.apiKey = 'AIzaSyC5l-5k47984ZB6YyPrXIomElxQaZKpBrk'; // chave de API do Google
+        this.apiKey = 'AIzaSyC7yJIRpyXc3i--C-YdL1I8yVhJN8kZ3m8'; // chave de API do Google
     }
 
     inicializar() {
